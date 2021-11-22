@@ -12,10 +12,12 @@ Vue.mixin(titleMixin);
 
 import tblUser from "./components/users/tblUser.vue";
 import tblTask from "./components/task/tblTask.vue";
+import tblSearch from "./components/task/tblSearch.vue";
 const app = new Vue({
     el: '#app',
     components: {
         tblUser,
-        tblTask
+        tblTask,
+        tblSearch
     },
 });
